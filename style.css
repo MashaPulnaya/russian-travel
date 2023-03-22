@@ -1,0 +1,29 @@
+.header{
+    background-color:#181A19;
+    max-height: 80px;
+}
+
+.header__container{
+    max-width: 1184px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.header__logo {
+    background-image: url(../../../image/__logo.png);
+    background-repeat: no-repeat;
+    width:176px;
+    height:52px;
+    padding-top: ;
+      }
+
+.header__lang-links{
+    display: flex;
+}
+
+.header__lang-link{
+    color: #FFFFFF;
+}
