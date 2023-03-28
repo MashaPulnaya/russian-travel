@@ -57,3 +57,63 @@ padding-bottom: 92px;
     max-width: 1184px;
 }
 
+.cover {
+background-color:#181A19; 
+overflow: hidden;
+}
+
+.cover__background{
+max-width: 1184px;
+max-height: 740px;
+margin: auto;
+position: relative;
+}
+
+.overlay::before{
+content: "";
+display: block;
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+background-color: rgb(0, 0, 0, 0.3);
+z-index: 0;
+}
+
+.overlay:hover:before{
+background-color: rgb(0, 0, 0, 0.8);
+}
+
+.cover__title {
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+text-align: center;
+margin: 0;
+color: #FFFFFF;
+max-width: 560px;
+position: absolute;
+top: 245px;
+left: 312px;
+z-index: 1;
+}
+
+.cover__subtitle {
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+margin: 0;
+text-align: center;
+color: #FFFFFF;
+max-width: 360px;
+position: absolute;
+bottom: 245px;
+left: 412px;
+z-index: 1;
+padding-top: 32px;
+}
+
+.cover__image{
+position: relative;
+}
