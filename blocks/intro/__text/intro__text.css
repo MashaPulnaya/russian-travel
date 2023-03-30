@@ -8,3 +8,16 @@
     max-width: 690px;
     padding-left: 148px;
     }
+
+    @media screen and (max-width: 768px) {
+        .intro__text {
+            max-width: 720px;
+            padding-left: 24px;
+        }
+    } 
+
+    @media screen and (max-width: 320px) {
+        .intro__text {
+            padding-bottom: 34px;
+        }
+    } 
