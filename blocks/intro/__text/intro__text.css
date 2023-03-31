@@ -7,6 +7,7 @@
     padding-bottom: 33px;
     max-width: 690px;
     padding-left: 148px;
+    margin: 0;
     }
 
     @media screen and (max-width: 768px) {
@@ -19,5 +20,8 @@
     @media screen and (max-width: 320px) {
         .intro__text {
             padding-bottom: 34px;
+            margin: auto;
+            max-width: 288px;
+            padding-left: 0;
         }
     } 
