@@ -31,5 +31,6 @@
         .place__description {
             max-width: 288px;
             font-size: 16px;
+            margin: auto;
         }
     } 
