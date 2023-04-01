@@ -1,4 +1,6 @@
 .cover {
     background-color:#181A19; 
-    overflow: hidden;
+  display: flex;
+  padding-top: 92px;
+  padding-bottom: 92px;
     }

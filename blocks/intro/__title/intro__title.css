@@ -3,6 +3,7 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
+    max-width: 690px;
     color: #FFFFFF;
     padding-bottom: 40px;
     padding-left: 148px;
@@ -12,6 +13,8 @@
     @media screen and (max-width: 768px) {
         .intro__title {
             padding-top: 88px;
+            max-width: 720px;
+            padding-left: 0;
         }
     } 
 
@@ -21,7 +24,6 @@
             line-height: 35px;
             padding-top: 64px;
             margin: auto;
-            text-align: left;
             max-width: 288px;
             padding-left: 0;
         }

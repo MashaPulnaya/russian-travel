@@ -8,6 +8,7 @@
     max-height: 152px;
     grid-area: title;
     padding-bottom: 48px;
+    margin: 0;
     }
 
     @media screen and (max-width: 1024px) {

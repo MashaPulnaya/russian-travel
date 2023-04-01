@@ -5,15 +5,14 @@
     line-height: 163%;
     color: #FFFFFF;
     padding-bottom: 33px;
-    max-width: 690px;
     padding-left: 148px;
     margin: 0;
+    max-width: 690px;
     }
 
     @media screen and (max-width: 768px) {
         .intro__text {
             max-width: 720px;
-            padding-left: 24px;
         }
     } 
 

@@ -1,6 +1,33 @@
-.cover__background{
-    max-width: 1184px;
-    max-height: 740px;
-    margin: auto;
-    position: relative;
-    }
+.cover__background {
+    background-image: url(/image/__background.png);
+     background-size: cover;
+     margin: auto;
+     max-width: 1184px;
+     max-height: 740px;
+     transition: opacity 0.3s easy;
+       }
+   
+   .cover__background:hover{
+       opacity: 0.3;
+           }
+
+    @media screen and (max-width: 1024px) {
+        .cover__background {
+            max-width: 1024px;
+            max-height: 640px;
+        }
+    } 
+
+    @media screen and (max-width: 768px) {
+        .cover__background {
+            max-width: 768px;
+            max-height: 489px;
+        }
+    } 
+
+    @media screen and (max-width: 320px) {
+        .cover__background {
+            max-width: 320px;
+            max-height: 200px;
+        }
+    } 

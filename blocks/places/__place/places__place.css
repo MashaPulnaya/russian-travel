@@ -9,6 +9,10 @@
     padding-bottom: 84px;
 }
 
+.places__place:last-of-type {
+    padding-bottom: 92px;
+}
+
 @media screen and (max-width: 1024px) {
     .places__place {
         max-width: 928px;
@@ -29,5 +33,9 @@
     "website"
     "image" 
     "paragraph";
+    padding-bottom: 50px;
     }
-} 
+    .places__place:last-of-type {
+        padding-bottom: 66px;
+    }
+}
