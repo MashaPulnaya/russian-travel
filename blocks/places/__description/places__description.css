@@ -1,4 +1,4 @@
-.place__description {
+.places__description {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 18px;
@@ -9,25 +9,25 @@
     padding-bottom: 26px;
     }
 
-    .place__description:last-of-type {
+    .places__description:last-of-type {
         padding-bottom: 0;
     }
 
     @media screen and (max-width: 1024px) {
-        .place__description {
+        .places__description {
             max-width: 456px;
         }
     } 
     
     @media screen and (max-width: 768px) {
-        .place__description {
+        .places__description {
             max-width: 352px;
             font-size: 16px;
         }
     } 
     
     @media screen and (max-width: 320px) {
-        .place__description {
+        .places__description {
             max-width: 288px;
             font-size: 16px;
             margin: auto;

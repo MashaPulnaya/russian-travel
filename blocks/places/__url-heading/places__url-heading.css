@@ -1,4 +1,4 @@
-.place__url-heading {
+.places__url-heading {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 12px;
@@ -10,13 +10,13 @@
     }
 
     @media screen and (max-width: 768px) {
-        .place__image {
+        .places__url-heading {
             max-width: 352px;
         }
     } 
     
     @media screen and (max-width: 320px) {
-        .place__image {
+        .places__url-heading {
             max-width: 288px;
         }
     } 

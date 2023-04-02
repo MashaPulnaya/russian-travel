@@ -1,4 +1,4 @@
-.place__link {
+.places__link {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 18px;
@@ -7,12 +7,12 @@
     transition: opacity 0.3s easy;
     }
 
-.place__link:hover{
+.places__link:hover{
     opacity: 0.3;
 }
 
 @media screen and (max-width: 320px) {
-    .place__link {
+    .places__link {
     padding-bottom: 32px;
     }
 } 
