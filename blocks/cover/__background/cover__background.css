@@ -1,15 +1,10 @@
 .cover__background {
-    background-image: url(/image/__background.png);
-     background-size: cover;
-     margin: auto;
-     max-width: 1184px;
-     max-height: 740px;
-     transition: opacity 0.3s easy;
-       }
-   
-   .cover__background:hover{
-       opacity: 0.3;
-           }
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 1184px;
+    height: 740px;
+    }
 
     @media screen and (max-width: 1024px) {
         .cover__background {

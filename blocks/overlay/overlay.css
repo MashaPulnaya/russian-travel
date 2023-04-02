@@ -1,0 +1,10 @@
+.overlay{
+    background-image: url(/image/__background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: opacity 0.3s easy;
+       }
+   
+   .overlay:hover {
+       opacity: 0.3;
+           }
