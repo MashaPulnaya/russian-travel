@@ -1,9 +1,10 @@
 .overlay{
-    background-image: url(/image/__background.png);
+    background-image: url(../../image/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     transition: opacity 0.3s easy;
-    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 15%;
        }
    
    .overlay:hover {

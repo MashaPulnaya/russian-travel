@@ -2,33 +2,8 @@
     display: grid;
     gap: 16px;
     margin: auto;
-    grid-template-columns: repeat(4, minmax(100px, 1fr));
-    grid-template-rows: repeat(3, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     list-style: none;
     max-width: 1184px;
     padding: 0;
 }
-
-@media screen and (max-width: 1024px) {
-    .photo-grid__columns {
-        grid-template-columns: repeat(3, minmax(100px, 1fr));
-        grid-template-rows: repeat(4, minmax(100px, 1fr));
-    }
-} 
-
-@media screen and (max-width: 768px) {
-    .photo-grid__columns {
-        grid-template-columns: repeat(2, minmax(100px, 1fr));
-        grid-template-rows: repeat(6, minmax(100px, 1fr));
-        max-width: 720px;
-    }
-} 
-
-@media screen and (max-width: 320px) {
-    .photo-grid__columns {
-        grid-template-columns: repeat(1, minmax(100px, 1fr));
-        grid-template-rows: repeat(12, minmax(100px, 1fr));
-        margin: auto;
-        max-width: 288px;
-    }
-} 

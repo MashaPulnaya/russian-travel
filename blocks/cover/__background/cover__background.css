@@ -2,27 +2,23 @@
     display: flex;
     margin: auto;
     flex-direction: column;
-    width: 1184px;
-    height: 740px;
+    max-width: 1184px;
     }
 
     @media screen and (max-width: 1024px) {
         .cover__background {
             max-width: 1024px;
-            max-height: 640px;
         }
     } 
 
     @media screen and (max-width: 768px) {
         .cover__background {
             max-width: 768px;
-            max-height: 489px;
         }
     } 
 
     @media screen and (max-width: 320px) {
         .cover__background {
             max-width: 320px;
-            max-height: 200px;
         }
     } 
