@@ -17,6 +17,15 @@
         }
     } 
 
+    @media screen and (max-width: 700px) {
+        .lead__subtitle {
+            font-size: 20px;
+            line-height: 105%;
+            padding-top: 18px;
+            max-width: 300px;
+        }
+    } 
+
     @media screen and (max-width: 320px) {
         .lead__subtitle {
             font-size: 16px;
