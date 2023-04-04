@@ -1,0 +1,12 @@
+.cover__overlay {
+    background-image: url(../../../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: opacity 0.3s ease;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.cover__overlay:hover {
+    opacity: 0.3;
+}

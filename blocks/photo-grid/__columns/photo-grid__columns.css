@@ -8,11 +8,17 @@
     padding: 0;
 }
 
+@media screen and (max-width: 1185px) {
+    .photo-grid__columns {
+        max-width: 930px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .photo-grid__columns {
         max-width: 928px;
     }
-} 
+}  
 
 @media screen and (max-width: 950px) {
     .photo-grid__columns {
