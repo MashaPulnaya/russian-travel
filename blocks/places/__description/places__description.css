@@ -1,5 +1,5 @@
 .places__description {
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', 'Helvetica';
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
@@ -7,28 +7,27 @@
     max-width: 484px;
     margin: 0;
     padding-bottom: 26px;
-    }
+}
 
-    .places__description:last-of-type {
-        padding-bottom: 0;
-    }
+.places__description:last-of-type {
+    padding-bottom: 0;
+}
 
-    @media screen and (max-width: 1024px) {
-        .places__description {
-            max-width: 456px;
-        }
-    } 
-    
-    @media screen and (max-width: 768px) {
-        .places__description {
-            font-size: 16px;
-        }
-    } 
-    
-    @media screen and (max-width: 600px) {
-        .places__description {
-            max-width: 288px;
-            font-size: 16px;
-            margin: auto;
-        }
-    } 
+@media screen and (max-width: 1024px) {
+    .places__description {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__description {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .places__description {
+        max-width: 288px;
+        margin: auto;
+    }
+}

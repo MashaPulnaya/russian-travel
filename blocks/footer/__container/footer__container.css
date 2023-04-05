@@ -1,17 +1,16 @@
 .footer__container {
-display: flex;
-margin: auto;
-justify-content: space-between;
-max-width: 1184px;
-padding-top: 92px;
-padding-bottom: 24px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 1184px;
+    padding-bottom: 24px;
 }
 
 @media screen and (max-width: 1024px) {
     .footer__container {
         max-width: 928px;
     }
-} 
+}
 
 @media screen and (max-width: 768px) {
     .footer__container {

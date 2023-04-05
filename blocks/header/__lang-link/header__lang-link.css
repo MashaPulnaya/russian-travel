@@ -1,14 +1,24 @@
 .header__lang-link {
   color: #FFFFFF;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', 'Helvetica';
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   transition: opacity 0.3s ease;
+  text-decoration: none;
+  padding-right: 18px;
 }
 
 .header__lang-link:hover {
   opacity: 0.3;
+}
+
+@media screen and (max-width: 720px) {
+  .header__lang-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 92%;
+  }
 }
 
 @media screen and (max-width: 320px) {

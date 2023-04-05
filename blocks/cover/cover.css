@@ -1,4 +1,11 @@
-.cover {background-color:#2A2C2F;
-padding-top: 92px;
-padding-bottom: 92px;
+.cover {
+    background-color: #2A2C2F;
+    padding-top: 98px;
+    padding-bottom: 97px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        padding-top: 109px;
     }
+}
