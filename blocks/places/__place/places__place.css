@@ -3,7 +3,7 @@
     display: grid;
     grid-template-areas:
     "title website"
-    "image paragraph";
+    "image container";
     margin: auto;
     column-gap: 40px;
     padding-bottom: 80px;
@@ -32,7 +32,7 @@
     "title" 
     "website"
     "image" 
-    "paragraph";
+    "container";
     padding-bottom: 50px;
     }
     .places__place:last-of-type {
