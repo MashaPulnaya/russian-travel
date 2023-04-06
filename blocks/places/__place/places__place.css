@@ -2,8 +2,8 @@
     max-width: 984px;
     display: grid;
     grid-template-areas:
-    "title website"
-    "image container";
+        "title website"
+        "image container";
     margin: auto;
     column-gap: 40px;
     padding-bottom: 80px;
@@ -17,24 +17,25 @@
     .places__place {
         max-width: 928px;
     }
-} 
+}
 
 @media screen and (max-width: 768px) {
     .places__place {
         max-width: 720px;
     }
-} 
+}
 
 @media screen and (max-width: 600px) {
     .places__place {
         max-width: 320px;
         grid-template-areas:
-    "title" 
-    "website"
-    "image" 
-    "container";
-    padding-bottom: 50px;
+            "title"
+            "website"
+            "image"
+            "container";
+        padding-bottom: 50px;
     }
+
     .places__place:last-of-type {
         padding-bottom: 66px;
     }

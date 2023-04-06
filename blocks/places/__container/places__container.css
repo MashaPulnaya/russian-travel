@@ -1,6 +1,6 @@
 .places__container {
     grid-area: container;
-  
+
 }
 
 @media screen and (max-width: 768px) {

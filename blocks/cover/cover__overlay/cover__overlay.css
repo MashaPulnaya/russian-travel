@@ -8,7 +8,7 @@
 }
 
 .cover__overlay::before {
-    Opacity: 0.3;
+    opacity: 0.3;
 }
 
 .cover__overlay:hover {
