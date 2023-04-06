@@ -12,13 +12,19 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .footer__container {
+        max-width: 750px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .footer__container {
         max-width: 720px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
     .footer__container {
         flex-direction: column;
         margin-left: 16px;

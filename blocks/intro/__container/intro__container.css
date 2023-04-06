@@ -1,13 +1,13 @@
 .intro__container {
-    padding-top: 88px;
+    padding-top: 92px;
     padding-bottom: 92px;
     margin: auto;
-    margin-right: auto;
-    padding-left: 148px;
 }
 
 @media screen and (max-width: 1024px) {
     .intro__container {
+        padding-top: 88px;
+        padding-bottom: 88px;
         padding-right: 44px;
     }
 } 
@@ -18,15 +18,12 @@
     }
 } 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
     .intro__container {
-        padding-right: 88px;
-    }
-} 
-
-@media screen and (max-width: 320px) {
-    .intro__container {
-        padding-right: 64px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        max-width: 288px;
+        padding-left: 0;
     }
 } 
 
