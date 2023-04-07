@@ -6,7 +6,6 @@
   line-height: 28px;
   transition: opacity 0.3s ease;
   text-decoration: none;
-  padding-right: 18px;
 }
 
 .header__lang-link:hover {
