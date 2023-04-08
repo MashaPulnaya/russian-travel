@@ -1,24 +1,5 @@
 .places__website {
     grid-area: website;
-    align-self: center;
-    padding-top: 49px;
-}
-
-@media screen and (max-width: 1024px) {
-    .places__website {
-        padding-top: 68px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .places__website {
-        padding-right: 28px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .places__website {
-        padding-bottom: 32px;
-        padding-left: 16px;
-    }
+    margin: auto;
+    margin-left: 0;
 }
