@@ -1,11 +1,11 @@
 .photo-grid {
     background-color: #2A2C2F;
-    padding-bottom: 92px;
+    padding-bottom: 76px;
 }
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        padding-bottom: 75px;
+        padding-bottom: 78px;
     }
 }
 

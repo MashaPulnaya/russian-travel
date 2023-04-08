@@ -1,5 +1,5 @@
 .places__place {
-    max-width: 984px;
+    max-width: 959px;
     display: grid;
     grid-template-areas:
         "title website"
@@ -16,6 +16,7 @@
 @media screen and (max-width: 1024px) {
     .places__place {
         max-width: 928px;
+        column-gap: 31px;
     }
 }
 
