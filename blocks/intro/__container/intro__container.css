@@ -26,10 +26,8 @@
 
 @media screen and (max-width: 730px) {
     .intro__container {
-        margin: auto;
         max-width: 450px;
         padding-top: 90px;
-        padding-bottom: 85px;
     }
 }
 

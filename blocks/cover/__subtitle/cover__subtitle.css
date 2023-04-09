@@ -10,6 +10,7 @@
     margin: auto;
     margin-top: 0;
     padding-bottom: 21%;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
