@@ -5,18 +5,18 @@
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        padding-bottom: 78px;
+        padding-bottom: 89px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .photo-grid {
-        padding-bottom: 88px;
+        padding-bottom: 85px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .photo-grid {
-        padding-bottom: 64px;
+        padding-bottom: 67px;
     }
 }

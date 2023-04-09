@@ -8,8 +8,8 @@
 
 @media screen and (max-width: 1024px) {
     .intro__container {
-        padding-top: 88px;
-        padding-bottom: 88px;
+        padding-top: 93px;
+        padding-bottom: 90px;
         padding-right: 44px;
         max-width: 883px;
     }
@@ -19,14 +19,26 @@
     .intro__container {
         margin: auto;
         max-width: 675px;
+        padding-top: 90px;
+        padding-bottom: 85px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 730px) {
     .intro__container {
-        padding-top: 64px;
+        margin: auto;
+        max-width: 450px;
+        padding-top: 90px;
+        padding-bottom: 85px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__container {
+        padding-top: 0;
         padding-bottom: 64px;
-        max-width: 288px;
-        padding-left: 0;
+        max-width: 375px;
+        padding-right: 0;
+
     }
 }

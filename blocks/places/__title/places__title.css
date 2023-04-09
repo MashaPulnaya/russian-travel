@@ -6,7 +6,6 @@
     color: #FFFFFF;
     max-width: 460px;
     grid-area: title;
-    padding-bottom: 48px;
     margin: 0;
 }
 
@@ -18,7 +17,7 @@
 
 @media screen and (max-width: 768px) {
     .places__title {
-        max-width: 340px;
+        max-width: 330px;
         font-size: 42px;
         line-height: 46px;
     }
@@ -29,7 +28,6 @@
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        padding-bottom: 32px;
         padding-left: 16px;
     }
 }
