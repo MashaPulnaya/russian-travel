@@ -22,14 +22,13 @@
 
 @media screen and (max-width: 430px) {
     .photo-grid__item {
-        min-width: 300px;
+        min-width: 288px;
         min-height: 230px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .photo-grid__item {
-        min-width: 288px;
         min-height: 216px;
     }
 }
